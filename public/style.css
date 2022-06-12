@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(56, 97, 145);
+
+}
+
+p {
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 99vh;
+    font-size: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: initial;
+    resize: none;
+    overflow: hidden;
+    background-color: rgb(56, 97, 145);
+}
+
+#text:focus {
+    outline: none;
+}
